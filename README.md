@@ -11,7 +11,7 @@ El objetivo principal es normalizar, estructurar la información y segmentar a l
 El desarrollo del proyecto se ejecutó en un entorno de **Jupyter Notebook** y contempló las siguientes fases de ingeniería y análisis de datos:
 
 1. **Limpieza e Ingeniería de Características Individuales:** Desarrollo de algoritmos iniciales para corregir tipos de datos (casting de edad a entero), remoción de caracteres residuales (`_` y espacios) y segmentación de cadenas de texto (separación de nombre y apellido); ejecutandolo en un solo registro de cliente para asegurar el funcionamiento.
-2. **Normalización y estandarización de categorías:** Por medio de un bulce se realiza la transformación de categorías de productos pasándolas de mayúsculas a minúsculas uniformes para evitar duplicidades lógicas en agrupaciones posteriores.
+2. **Normalización y estandarización de categorías:** Por medio de un bucle se realiza la transformación de categorías de productos pasándolas de mayúsculas a minúsculas uniformes para evitar duplicidades lógicas en agrupaciones posteriores.
 3. **Automatización mediante Funciones Reutilizables:** Modularización de todo el proceso de ETL (Extracción, Transformación y Carga) en una función limpia llamada `clean_user()` aplicada de forma masiva a todo el dataset crudo (`users_raw`).
 4. **Análisis Financiero Integrado:** Cálculo automatizado de los ingresos totales generados por la base de usuarios mediante estructuras de control y funciones de agregación.
 5. **Segmentación y Perfilado Estructurado:** Implementación de filtros lógicos complejos para extraer audiencias específicas:
@@ -28,7 +28,7 @@ El desarrollo del proyecto se ejecutó en un entorno de **Jupyter Notebook** y c
 - **Eficiencia Operacional:** La creación de funciones reutilizables permite al equipo de datos automatizar la limpieza de nuevos registros de clientes en segundos en lugar de realizar tareas manuales repetitivas.
 - **Sólida Base de Segmentación:** Se proporcionó al equipo de marketing una segmentación granular de clientes de alto valor y filtros por categorías específicas, optimizando la asignación de presupuestos publicitarios para el nuevo Programa de Fidelización.
 
-## 🧠 Los retos que me encontré en el camino
+## 🧠 Retos Afrontados
 
 - **Estructuras complejas:** Trabajar con listas metidas dentro de otras listas (datos anidados) fue confuso al principio. Tuve que dominar muy bien el tema de los índices múltiples para no romper el código al intentar acceder, por ejemplo, sólo a la primera parte del nombre de un usuario.
 - **Cambiar el chip a código reutilizable:** Al principio uno resuelve los problemas de forma lineal (paso 1, paso 2...), pero el verdadero reto fue abstraer eso y construir funciones modulares. Tenía que asegurarme de que si entraban 10,000 usuarios nuevos mañana, mis funciones los limpiaran sin pestañear.
