@@ -1,4 +1,4 @@
-# Limpieza de Datos y Segmentación en Store 1 🚀
+<em> # Limpieza de Datos y Segmentación en Store 1 🚀 </em>
 
 Trabajé simulando el rol de una analista de datos júnior para **Store 1**, una tienda de comercio electrónico que esta preparando el lanzamiento de su nuevo **Programa de Fidelización de Clientes**. 
 
