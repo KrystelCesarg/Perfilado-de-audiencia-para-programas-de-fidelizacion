@@ -23,7 +23,7 @@ El análisis se realizó sobre el conjunto de datos crudo de usuarios (`users_ra
 * **Eficiencia Operacional:** La automatización mediante funciones modulares redujo el tiempo de preparación de datos de horas de trabajo manual a solo unos segundos.
 * **Mitigación de Riesgo de Negocio:** La segmentación granular evita el desperdicio de presupuesto en campañas masivas no dirigidas, asegurando un impacto directo en los clientes de alto valor.
 
-## 🚀 Recomendaciones Estratégicas (Enfoque de Analítica de Personas y Negocio)
+## 🚀 Recomendaciones Estratégicas
 * **Automatización del Flujo de Retención:** Integrar la función `clean_user()` en un pipeline semanal automatizado para etiquetar y dar la bienvenida a nuevos miembros del programa de fidelización de forma inmediata.
 * **Incentivos Dirigidos a Clientes Clave:** Lanzar un programa de referidos exclusivo para el segmento de alto valor identificado (menores de 30 años con gasto > $1k) para reducir los costos de adquisición de clientes mediante sus embajadores más activos.
 
